@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+body{
+  padding: 25px 20px;
+  font-family: 'YourFont';
+}
+.bg1{
+  background-image: url(./assets/bg1.jpeg);
+}
+.bg2{
+  background-image: url(./assets/bg1.jpeg);
+  filter: blur(2px);
+}
+.bg3{
+  background: linear-gradient(180deg, rgba(233, 233, 231, 0) 44%, rgba(255, 255, 255, 0.023) 0.01%, rgba(24, 55, 97, 0.594) 92.08%, rgba(24, 55, 97, 0.6) 88.54%);
+}
+.text1{
+  font-family: 'Arizonia', cursive;
+}
+.bg5{
+  box-shadow: 0px 4px 4px 0px #00000021;
+
+}
+@font-face {
+  font-family: 'YourFont';
+  src:  url('./ARLRDBD.ttf');
+  }
+
+  .shad{
+    box-shadow: 0px 4px 4px 0px #00000021;
+  }
+.brd{
+  border: 1px solid #00000045
+}
